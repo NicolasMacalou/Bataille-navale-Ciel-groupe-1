@@ -34,7 +34,7 @@ function caseClicked(caseNumber){
 function generateBatailleNavale(){
     let table = document.getElementById("tableau");
     lettrelist = ["A","B","C","D","E","F","G","H","I","J"];
-    for (let i = 0; i<10, i++){
+    for (let i = 0; i<10; i++){
         let tr = document.createElement("tr");
         let th = document.createElement("th");
         th.textContent = i;

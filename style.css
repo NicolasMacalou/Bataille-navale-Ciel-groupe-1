@@ -11,3 +11,24 @@ table, th, td{
 th,td{
     padding: 20px;
 }
+
+.play_game {
+  background-color:#543fdd;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+font-family: "Segoe UI","Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 70px;
+  padding: 0 25px;
+  text-align: center;
+  transition: 1s;
+
+}
+
+.play_game:hover {
+  background-color: #4c4381;
+  transition: 1s;
+}
