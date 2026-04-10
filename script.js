@@ -1,7 +1,13 @@
+
+const btnjouer = document.getElementById('btnjouer');
+const titre = document.getElementById('titre');
+
 function generatetable(){
     //La version propre pour générer un tableau, y'a une autre fonction en dessous pour refaire le 'Guess the Number'
 let table = document.getElementById("tableau");
 let counter=1;
+
+
 for(let i = 0; i<10; i++){
     let tr = document.createElement("tr");
     for(let j = 0; j<10; j++){
@@ -15,6 +21,8 @@ for(let i = 0; i<10; i++){
         
     }
     table.appendChild(tr);
+    btnjouer.style.display = 'none';
+    titre.style.display = 'none';
 }
 }
 function onetohundred(){
