@@ -1,0 +1,13 @@
+*{
+    font-family: Arial;
+    align-content: center;
+}
+
+table, th, td{
+    border: 2px solid green;
+    border-spacing: 0px;
+}
+
+th,td{
+    padding: 20px;
+}
