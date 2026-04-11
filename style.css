@@ -11,6 +11,7 @@ table, th, td{
 }
 
 .titre{
+  margin-top: 15%;
  font-weight: 900;
  font-size: 5pc;
  text-align: center;
