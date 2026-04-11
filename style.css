@@ -1,3 +1,4 @@
+/* Généraux */
 *{
     font-family: Arial;
     align-content: center;
@@ -5,11 +6,7 @@
     color: white;
 }
 
-table, th, td{
-    border: 2px solid white;
-    border-spacing: 0px;
-}
-
+/* Titre ( Bataille Navale) */
 .titre{
   margin-top: 15%;
  font-weight: 900;
@@ -17,12 +14,25 @@ table, th, td{
  text-align: center;
 }
 
+
+/* Tableau et sous parties */
+#tableau{
+  display: none;
+}
+
+table, th, td{
+    border: 2px solid white;
+    border-spacing: 0px;
+}
+
 th,td{
     padding: 20px;
 }
 
-.play_game {
-  background-color:#543fdd;
+
+/* Bouton de lancement du jeu */
+.btn_play_game {
+  background-color:#4932de;
   border-radius: 10px;
   border: none;
   color: #FFFFFF;
@@ -41,7 +51,13 @@ th,td{
   width: 50%;
 }
 
-.play_game:hover {
-  background-color: #4c4381;
-  transition: 1s;
+.btn_play_game:hover {
+  background-color: #523ddb;
+  color: #ffffff;
+  transition: 0.3s;
+  height: 75px;
+  width: 52%;
+  box-shadow: #7569c9 0px 0px 15px;
 }
+
+/*  */

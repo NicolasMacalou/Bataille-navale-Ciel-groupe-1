@@ -1,7 +1,9 @@
-
+// Constantes 
 const btnjouer = document.getElementById('btnjouer');
 const titre = document.getElementById('titre');
 
+
+// Fonction de génération du tableau
 function generatetable(){
     //La version propre pour générer un tableau, y'a une autre fonction en dessous pour refaire le 'Guess the Number'
 let table = document.getElementById("tableau");
@@ -21,10 +23,14 @@ for(let i = 0; i<10; i++){
         
     }
     table.appendChild(tr);
+
     btnjouer.style.display = 'none';
     titre.style.display = 'none';
+    table.style.display = 'initial';
 }
 }
+
+
 function onetohundred(){
     for(let i=1; i<101; i++){
         console.log(i);
