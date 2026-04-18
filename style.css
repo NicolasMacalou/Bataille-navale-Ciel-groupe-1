@@ -18,6 +18,7 @@
 /* Tableau et sous parties */
 #tableau{
   display: none;
+  margin-left: 20px;
 }
 
 table, th, td{
